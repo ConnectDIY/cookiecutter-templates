@@ -1,0 +1,13 @@
+pip
+wheel
+pip-compile-multi
+pre-commit
+flake8
+#tox
+#coverage
+#Sphinx
+#twine
+{% if cookiecutter.use_pytest == 'y' -%}
+pytest{% endif %}
+{% if cookiecutter.use_black == 'y' -%}
+black{% endif %}

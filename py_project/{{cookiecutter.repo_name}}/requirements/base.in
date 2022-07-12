@@ -1,0 +1,5 @@
+# There is should be your libraries.
+# You can vary libs versions. See pip-compile-multi documentation.
+
+{% if cookiecutter.command_line_interface|lower == 'click' -%}
+Click{% endif %}

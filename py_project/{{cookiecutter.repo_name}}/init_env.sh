@@ -7,6 +7,10 @@ pip-compile-multi
 echo install all requirements
 pip install -U -r requirements/all.txt
 
+# Some git actions
+# Git helper ...
+
+
 # Setup pre-commit and pre-push hooks
 #pipenv run pre-commit install -t pre-commit
 #pipenv run pre-commit install -t pre-push
